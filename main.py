@@ -3,16 +3,17 @@
 Writes exactly one word, a verdict on an ex, to
 /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt when set).
 
-The word: Unsubscribe — the ex as a mailing list you opted out of.
-One word, eleven letters: the joke lands at a glance (a person
-reduced to spam you finally stopped receiving), it is not the
-obvious insult, and anyone who has ever hit "unsubscribe" — or
-been ghosted by someone who did — feels the truth in it.
+The word: ExhibitA — the ex presented as courtroom Exhibit A.
+One word, eight characters: the "ex" pun is built into the verdict
+itself (Ex-hibit A), a whole relationship reduced to a single piece
+of evidence. It reads as a judgement, not an insult — and anyone
+who has ever been put on trial for someone else's version of
+events feels the truth in it at a glance.
 """
 
 import os
 
-WORD = "Unsubscribe"
+WORD = "ExhibitA"
 
 
 def main() -> None:
